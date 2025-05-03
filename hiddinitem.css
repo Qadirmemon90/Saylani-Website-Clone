@@ -1,0 +1,51 @@
+
+.donation-card1 {
+    position: relative;
+    width: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  
+  .donation-card1 img {
+    opacity: 10;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .donation-card:hover{
+    transform: scale(1.05);
+  }
+  .donation-cards:hover{
+    gap: 30px;
+  }
+ .donation-card,
+  .donation-cards{
+    transition: 0.5s ease;
+ }
+  
+  .donation-card1 .title1 {
+    position: absolute;
+    top: 15px;
+    left: 30%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .donation-card1 .donate-btn10 {
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: #7dc242;
+    color: white;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+  }
